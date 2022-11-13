@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Listening is everything - Spotify API</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" type="image/jpg" href="spotify.png"/>
+  <link href="spotify.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="data.js"></script>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <a href="home.html" class="logo"><img src="assets/img/spotify.png"  href="home.html"alt="logo" class="img-fluid,logo me-auto"></a>
+      <h1 class="logo me-auto"><a href="home.html">- API</a></h1>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <!-- <li><a class="active" href="search.html">Search</a></li> -->
+          <li class="dropdown"><a href="search.html"><span>Search</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Song</a></li>
+              <li><a href="#">Artist</a></li>
+              <li><a href="#">Album</a></li>
+              <li><a href="#">Playlist</a></li>
+            </ul>
+          </li>
+          <li><a href="playlist.html">My Profile</a></li>
+          <li><a href="trainers.html">About Us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+<body onload="onPageLoad()">
+    <main id="main">
+        <!-- ======= Breadcrumbs ======= -->
+        <div class="breadcrumbs" data-aos="fade-in">
+          <div class="container">
+            <h2>Our Playlists</h2>
+            <!-- <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p> -->
+          </div>
+        </div><!-- End Breadcrumbs -->
+    
+        <!-- ======= Pricing Section ======= -->
+        <section id="pricing" class="pricing">
+          <div class="container" data-aos="fade-up">
+    
+            <div class="row">
+    
+              <div class="col-lg-3 col-md-6">
+                <div class="box">
+                  <h3>Free</h3>
+                  <h4><sup>$</sup>0<span> / month</span></h4>
+                  <ul>
+                    <li>Aida dere</li>
+                    <li>Nec feugiat nisl</li>
+                    <li>Nulla at volutpat dola</li>
+                    <li class="na">Pharetra massa</li>
+                    <li class="na">Massa ultricies mi</li>
+                  </ul>
+                  <div class="btn-wrap">
+                    <a href="#" class="btn-buy">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+                <div class="box featured">
+                  <h3>Business</h3>
+                  <h4><sup>$</sup>19<span> / month</span></h4>
+                  <ul>
+                    <li>Aida dere</li>
+                    <li>Nec feugiat nisl</li>
+                    <li>Nulla at volutpat dola</li>
+                    <li>Pharetra massa</li>
+                    <li class="na">Massa ultricies mi</li>
+                  </ul>
+                  <div class="btn-wrap">
+                    <a href="#" class="btn-buy">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                <div class="box">
+                  <h3>Developer</h3>
+                  <h4><sup>$</sup>29<span> / month</span></h4>
+                  <ul>
+                    <li>Aida dere</li>
+                    <li>Nec feugiat nisl</li>
+                    <li>Nulla at volutpat dola</li>
+                    <li>Pharetra massa</li>
+                    <li>Massa ultricies mi</li>
+                  </ul>
+                  <div class="btn-wrap">
+                    <a href="#" class="btn-buy">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                <div class="box">
+                  <span class="advanced">Advanced</span>
+                  <h3>Ultimate</h3>
+                  <h4><sup>$</sup>49<span> / month</span></h4>
+                  <ul>
+                    <li>Aida dere</li>
+                    <li>Nec feugiat nisl</li>
+                    <li>Nulla at volutpat dola</li>
+                    <li>Pharetra massa</li>
+                    <li>Massa ultricies mi</li>
+                  </ul>
+                  <div class="btn-wrap">
+                    <a href="#" class="btn-buy">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+    
+          </div>
+        </section><!-- End Pricing Section -->
+    
+      </main>
+
+      <!-- ini tadi coba tapi invalid client id-->
+      <div id="deviceSection" class="row">
+        <div class="col">
+
+            <div class="mb-3">
+                <label for="devices" class="form-label">Devices</label>
+                <select id="devices" class="form-control">
+                </select>
+                <input class="btn btn-primary btn-sm mt-3" type="button" onclick="refreshDevices()" value="Refresh Devices">
+                <input type="button" class="btn btn-dark btn-sm  mt-3" onclick="transfer()" value="Transfer">
+            </div>
+
+            <div class="mb-3">
+                <label for="playlists" class="form-label">Playlists</label>
+                <select id="playlists" class="form-control">
+                </select>
+                <input class="btn btn-primary btn-sm mt-3" type="button" onclick="refreshPlaylists()" value="Refresh Playlists">
+
+            </div>
+
+            <div class="mb-3">
+                <label for="tracks" class="form-label">Tracks</label>
+                <select id="tracks" class="form-control">
+                </select>
+                <input class="btn btn-primary btn-sm mt-3" type="button" onclick="fetchTracks()" value="Fetch Tracks">
+            </div>
+
+            <div class="mb-3">
+                <label for="tracks" class="form-label">Album</label>
+                <input id="album" class="form-control">
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <input type="button" class="btn btn-dark" onclick="previous()" value="Prev">
+                    <input type="button" class="btn btn-dark" onclick="play()" value="Play">
+                    <input type="button" class="btn btn-dark" onclick="shuffle()" value="Shuffle">
+                    <input type="button" class="btn btn-dark" onclick="pause()" value="Pause">
+                    <input type="button" class="btn btn-dark" onclick="next()" value="Next">
+                </div>
+            </div>
+
+
+            <div class="row  mt-3">
+                <div class="col">
+                    <h1> Currently Playing</h1>
+                    <input type="button" class="btn btn-primary btn-sm mt-3" onclick="currentlyPlaying()" value="Refresh Currently Playing">
+                    <div>
+                        <img id="albumImage" src="">
+                        <div id="trackTitle"></div>
+                        <div id="trackArtist"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row  mt-3">
+                <div class="col">
+                    <div id="radioButtons"></div>
+                    <input type="button" class="btn btn-dark" onclick="saveNewRadioButton()" value="Add">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <footer id="footer">
+  
+  
+      <div class="container text-center d-md-flex py-4">
+  
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            UAS Pengenalan Teknologi Internet Ganjil 2021
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/ -->
+            <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+          </div>
+        </div>
+       
+      </div>
+    </footer><!-- End Footer -->
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+  
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <!-- <script src="data.js"></script> -->
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+{
+    "country": "ID",
+    "display_name": "Jonathan Octavien",
+    "email": "nathanerich0206@gmail.com",
+    "explicit_content": {
+      "filter_enabled": false,
+      "filter_locked": false
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/user/085719208725"
+    },
+    "followers": {
+      "href": null,
+      "total": 11
+    },
+    "href": "https://api.spotify.com/v1/users/085719208725",
+    "id": "085719208725",
+    "images": [
+      {
+        "height": null,
+        "url": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=10203093824900003&height=300&width=300&ext=1641697240&hash=AeSFFZLoBNAS-SdGS4U",
+        "width": null
+      }
+    ],
+    "product": "open",
+    "type": "user",
+    "uri": "spotify:user:085719208725"
+  }

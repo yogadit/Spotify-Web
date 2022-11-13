@@ -1,0 +1,2054 @@
+{
+  "albums": {
+      "href": "https://api.spotify.com/v1/search?query=name%3Ajustin&type=album&market=ID&offset=0&limit=20",
+      "items": [
+          {
+              "album_type": "single",
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/2YdCl2UxEaH7Ho44mv5p1T"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/2YdCl2UxEaH7Ho44mv5p1T",
+                      "id": "2YdCl2UxEaH7Ho44mv5p1T",
+                      "name": "Justin Davis",
+                      "type": "artist",
+                      "uri": "spotify:artist:2YdCl2UxEaH7Ho44mv5p1T"
+                  }
+              ],
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/album/1irQqqHnydFUF5PQ1zfa8V"
+              },
+              "href": "https://api.spotify.com/v1/albums/1irQqqHnydFUF5PQ1zfa8V",
+              "id": "1irQqqHnydFUF5PQ1zfa8V",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273afe4550471f75467815b8441",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e02afe4550471f75467815b8441",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851afe4550471f75467815b8441",
+                      "width": 64
+                  }
+              ],
+              "name": "Hello, My Name Is Justin Davis",
+              "release_date": "2020-12-09",
+              "release_date_precision": "day",
+              "total_tracks": 1,
+              "type": "album",
+              "uri": "spotify:album:1irQqqHnydFUF5PQ1zfa8V"
+          }
+      ],
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total": 1
+  },
+  "artists": {
+      "href": "https://api.spotify.com/v1/search?query=name%3Ajustin&type=artist&market=ID&offset=0&limit=20",
+      "items": [],
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total": 0
+  },
+  "tracks": {
+      "href": "https://api.spotify.com/v1/search?query=name%3Ajustin&type=track&market=ID&offset=0&limit=20",
+      "items": [
+          {
+              "album": {
+                  "album_type": "album",
+                  "artists": [
+                      {
+                          "external_urls": {
+                              "spotify": "https://open.spotify.com/artist/2YseECKs6s1kGSNhvdDHBY"
+                          },
+                          "href": "https://api.spotify.com/v1/artists/2YseECKs6s1kGSNhvdDHBY",
+                          "id": "2YseECKs6s1kGSNhvdDHBY",
+                          "name": "Ron Fetner",
+                          "type": "artist",
+                          "uri": "spotify:artist:2YseECKs6s1kGSNhvdDHBY"
+                      }
+                  ],
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/album/03iUE8NNAGbFNrtUy8pOLp"
+                  },
+                  "href": "https://api.spotify.com/v1/albums/03iUE8NNAGbFNrtUy8pOLp",
+                  "id": "03iUE8NNAGbFNrtUy8pOLp",
+                  "images": [
+                      {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b27301347435be822dc23fa7ef30",
+                          "width": 640
+                      },
+                      {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e0201347435be822dc23fa7ef30",
+                          "width": 300
+                      },
+                      {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d0000485101347435be822dc23fa7ef30",
+                          "width": 64
+                      }
+                  ],
+                  "name": "Defying Gravity",
+                  "release_date": "2004-11-08",
+                  "release_date_precision": "day",
+                  "total_tracks": 12,
+                  "type": "album",
+                  "uri": "spotify:album:03iUE8NNAGbFNrtUy8pOLp"
+              },
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/2YseECKs6s1kGSNhvdDHBY"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/2YseECKs6s1kGSNhvdDHBY",
+                      "id": "2YseECKs6s1kGSNhvdDHBY",
+                      "name": "Ron Fetner",
+                      "type": "artist",
+                      "uri": "spotify:artist:2YseECKs6s1kGSNhvdDHBY"
+                  }
+              ],
+              "disc_number": 1,
+              "duration_ms": 259053,
+              "explicit": false,
+              "external_ids": {
+                  "isrc": "uscgj0559314"
+              },
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/track/3slsBK2LwptYOn9wzW7NYD"
+              },
+              "href": "https://api.spotify.com/v1/tracks/3slsBK2LwptYOn9wzW7NYD",
+              "id": "3slsBK2LwptYOn9wzW7NYD",
+              "is_local": false,
+              "is_playable": true,
+              "name": "My Name Is Justin",
+              "popularity": 0,
+              "preview_url": "https://p.scdn.co/mp3-preview/317ca4c4e25e41dbae75e0467d658b6e36f848e5?cid=774b29d4f13844c495f206cafdad9c86",
+              "track_number": 3,
+              "type": "track",
+              "uri": "spotify:track:3slsBK2LwptYOn9wzW7NYD"
+          },
+          {
+              "album": {
+                  "album_type": "album",
+                  "artists": [
+                      {
+                          "external_urls": {
+                              "spotify": "https://open.spotify.com/artist/2iVkdYVFOVlY16QZkxwJTs"
+                          },
+                          "href": "https://api.spotify.com/v1/artists/2iVkdYVFOVlY16QZkxwJTs",
+                          "id": "2iVkdYVFOVlY16QZkxwJTs",
+                          "name": "Ammed Williams",
+                          "type": "artist",
+                          "uri": "spotify:artist:2iVkdYVFOVlY16QZkxwJTs"
+                      }
+                  ],
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/album/5JSQ3RVjDXhIY9GIy61mJI"
+                  },
+                  "href": "https://api.spotify.com/v1/albums/5JSQ3RVjDXhIY9GIy61mJI",
+                  "id": "5JSQ3RVjDXhIY9GIy61mJI",
+                  "images": [
+                      {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2736ac51677e005e9ab97808d80",
+                          "width": 640
+                      },
+                      {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e026ac51677e005e9ab97808d80",
+                          "width": 300
+                      },
+                      {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048516ac51677e005e9ab97808d80",
+                          "width": 64
+                      }
+                  ],
+                  "name": "Don't Call Me Dude",
+                  "release_date": "2016-06-14",
+                  "release_date_precision": "day",
+                  "total_tracks": 23,
+                  "type": "album",
+                  "uri": "spotify:album:5JSQ3RVjDXhIY9GIy61mJI"
+              },
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/2iVkdYVFOVlY16QZkxwJTs"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/2iVkdYVFOVlY16QZkxwJTs",
+                      "id": "2iVkdYVFOVlY16QZkxwJTs",
+                      "name": "Ammed Williams",
+                      "type": "artist",
+                      "uri": "spotify:artist:2iVkdYVFOVlY16QZkxwJTs"
+                  }
+              ],
+              "disc_number": 1,
+              "duration_ms": 162017,
+              "explicit": false,
+              "external_ids": {
+                  "isrc": "usdy41660317"
+              },
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/track/09I1KNV47gx5GRIcNd6Kfh"
+              },
+              "href": "https://api.spotify.com/v1/tracks/09I1KNV47gx5GRIcNd6Kfh",
+              "id": "09I1KNV47gx5GRIcNd6Kfh",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Don't Change Your Name Justine",
+              "popularity": 0,
+              "preview_url": "https://p.scdn.co/mp3-preview/d8fa721cdc2458aa9fe14967ef0881ea6d7aa227?cid=774b29d4f13844c495f206cafdad9c86",
+              "track_number": 1,
+              "type": "track",
+              "uri": "spotify:track:09I1KNV47gx5GRIcNd6Kfh"
+          },
+          {
+              "album": {
+                  "album_type": "single",
+                  "artists": [
+                      {
+                          "external_urls": {
+                              "spotify": "https://open.spotify.com/artist/4ZycjRroJpEHjKMxs8zsek"
+                          },
+                          "href": "https://api.spotify.com/v1/artists/4ZycjRroJpEHjKMxs8zsek",
+                          "id": "4ZycjRroJpEHjKMxs8zsek",
+                          "name": "Harms Way",
+                          "type": "artist",
+                          "uri": "spotify:artist:4ZycjRroJpEHjKMxs8zsek"
+                      }
+                  ],
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/album/0mK4rUspB4nGeABX6pVgDC"
+                  },
+                  "href": "https://api.spotify.com/v1/albums/0mK4rUspB4nGeABX6pVgDC",
+                  "id": "0mK4rUspB4nGeABX6pVgDC",
+                  "images": [
+                      {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b27334225ac694ede4fbca7dfab2",
+                          "width": 640
+                      },
+                      {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e0234225ac694ede4fbca7dfab2",
+                          "width": 300
+                      },
+                      {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d0000485134225ac694ede4fbca7dfab2",
+                          "width": 64
+                      }
+                  ],
+                  "name": "PSTHMN",
+                  "release_date": "2019-04-19",
+                  "release_date_precision": "day",
+                  "total_tracks": 4,
+                  "type": "album",
+                  "uri": "spotify:album:0mK4rUspB4nGeABX6pVgDC"
+              },
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/4ZycjRroJpEHjKMxs8zsek"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/4ZycjRroJpEHjKMxs8zsek",
+                      "id": "4ZycjRroJpEHjKMxs8zsek",
+                      "name": "Harms Way",
+                      "type": "artist",
+                      "uri": "spotify:artist:4ZycjRroJpEHjKMxs8zsek"
+                  },
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/0JP4tVwUQtzOtmtn4ktQB3"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/0JP4tVwUQtzOtmtn4ktQB3",
+                      "id": "0JP4tVwUQtzOtmtn4ktQB3",
+                      "name": "JK Flesh",
+                      "type": "artist",
+                      "uri": "spotify:artist:0JP4tVwUQtzOtmtn4ktQB3"
+                  }
+              ],
+              "disc_number": 1,
+              "duration_ms": 270880,
+              "explicit": false,
+              "external_ids": {
+                  "isrc": "USMBR1913736"
+              },
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/track/645jV0do7uFumQz5doXMwb"
+              },
+              "href": "https://api.spotify.com/v1/tracks/645jV0do7uFumQz5doXMwb",
+              "id": "645jV0do7uFumQz5doXMwb",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Call My Name - Justin Broadrick Remix",
+              "popularity": 9,
+              "preview_url": "https://p.scdn.co/mp3-preview/d0972b2e6717bcd7d10b342bc2401c8dc1ca0a0a?cid=774b29d4f13844c495f206cafdad9c86",
+              "track_number": 1,
+              "type": "track",
+              "uri": "spotify:track:645jV0do7uFumQz5doXMwb"
+          },
+          {
+              "album": {
+                  "album_type": "album",
+                  "artists": [
+                      {
+                          "external_urls": {
+                              "spotify": "https://open.spotify.com/artist/2YseECKs6s1kGSNhvdDHBY"
+                          },
+                          "href": "https://api.spotify.com/v1/artists/2YseECKs6s1kGSNhvdDHBY",
+                          "id": "2YseECKs6s1kGSNhvdDHBY",
+                          "name": "Ron Fetner",
+                          "type": "artist",
+                          "uri": "spotify:artist:2YseECKs6s1kGSNhvdDHBY"
+                      }
+                  ],
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/album/03iUE8NNAGbFNrtUy8pOLp"
+                  },
+                  "href": "https://api.spotify.com/v1/albums/03iUE8NNAGbFNrtUy8pOLp",
+                  "id": "03iUE8NNAGbFNrtUy8pOLp",
+                  "images": [
+                      {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b27301347435be822dc23fa7ef30",
+                          "width": 640
+                      },
+                      {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e0201347435be822dc23fa7ef30",
+                          "width": 300
+                      },
+                      {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d0000485101347435be822dc23fa7ef30",
+                          "width": 64
+                      }
+                  ],
+                  "name": "Defying Gravity",
+                  "release_date": "2004-11-08",
+                  "release_date_precision": "day",
+                  "total_tracks": 12,
+                  "type": "album",
+                  "uri": "spotify:album:03iUE8NNAGbFNrtUy8pOLp"
+              },
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/2YseECKs6s1kGSNhvdDHBY"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/2YseECKs6s1kGSNhvdDHBY",
+                      "id": "2YseECKs6s1kGSNhvdDHBY",
+                      "name": "Ron Fetner",
+                      "type": "artist",
+                      "uri": "spotify:artist:2YseECKs6s1kGSNhvdDHBY"
+                  }
+              ],
+              "disc_number": 1,
+              "duration_ms": 217800,
+              "explicit": false,
+              "external_ids": {
+                  "isrc": "uscgj0559323"
+              },
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/track/1lcWHS8kYRagsaLiknw9kb"
+              },
+              "href": "https://api.spotify.com/v1/tracks/1lcWHS8kYRagsaLiknw9kb",
+              "id": "1lcWHS8kYRagsaLiknw9kb",
+              "is_local": false,
+              "is_playable": true,
+              "name": "My Name Is Justin (Duet Version)",
+              "popularity": 0,
+              "preview_url": "https://p.scdn.co/mp3-preview/18d08177af7f681b561681633e19b153e33c51e4?cid=774b29d4f13844c495f206cafdad9c86",
+              "track_number": 12,
+              "type": "track",
+              "uri": "spotify:track:1lcWHS8kYRagsaLiknw9kb"
+          },
+          {
+              "album": {
+                  "album_type": "single",
+                  "artists": [
+                      {
+                          "external_urls": {
+                              "spotify": "https://open.spotify.com/artist/2YdCl2UxEaH7Ho44mv5p1T"
+                          },
+                          "href": "https://api.spotify.com/v1/artists/2YdCl2UxEaH7Ho44mv5p1T",
+                          "id": "2YdCl2UxEaH7Ho44mv5p1T",
+                          "name": "Justin Davis",
+                          "type": "artist",
+                          "uri": "spotify:artist:2YdCl2UxEaH7Ho44mv5p1T"
+                      }
+                  ],
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/album/1irQqqHnydFUF5PQ1zfa8V"
+                  },
+                  "href": "https://api.spotify.com/v1/albums/1irQqqHnydFUF5PQ1zfa8V",
+                  "id": "1irQqqHnydFUF5PQ1zfa8V",
+                  "images": [
+                      {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273afe4550471f75467815b8441",
+                          "width": 640
+                      },
+                      {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02afe4550471f75467815b8441",
+                          "width": 300
+                      },
+                      {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851afe4550471f75467815b8441",
+                          "width": 64
+                      }
+                  ],
+                  "name": "Hello, My Name Is Justin Davis",
+                  "release_date": "2020-12-09",
+                  "release_date_precision": "day",
+                  "total_tracks": 1,
+                  "type": "album",
+                  "uri": "spotify:album:1irQqqHnydFUF5PQ1zfa8V"
+              },
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/2YdCl2UxEaH7Ho44mv5p1T"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/2YdCl2UxEaH7Ho44mv5p1T",
+                      "id": "2YdCl2UxEaH7Ho44mv5p1T",
+                      "name": "Justin Davis",
+                      "type": "artist",
+                      "uri": "spotify:artist:2YdCl2UxEaH7Ho44mv5p1T"
+                  }
+              ],
+              "disc_number": 1,
+              "duration_ms": 203592,
+              "explicit": true,
+              "external_ids": {
+                  "isrc": "TCAFH2035091"
+              },
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/track/4ZytmF2gA58wgxXHeIeLne"
+              },
+              "href": "https://api.spotify.com/v1/tracks/4ZytmF2gA58wgxXHeIeLne",
+              "id": "4ZytmF2gA58wgxXHeIeLne",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Hello, My Name Is Justin Davis",
+              "popularity": 0,
+              "preview_url": "https://p.scdn.co/mp3-preview/aa88a9210d43312c1c85e64e098a8d3f586b8e84?cid=774b29d4f13844c495f206cafdad9c86",
+              "track_number": 1,
+              "type": "track",
+              "uri": "spotify:track:4ZytmF2gA58wgxXHeIeLne"
+          },
+          {
+              "album": {
+                  "album_type": "album",
+                  "artists": [
+                      {
+                          "external_urls": {
+                              "spotify": "https://open.spotify.com/artist/2YdCl2UxEaH7Ho44mv5p1T"
+                          },
+                          "href": "https://api.spotify.com/v1/artists/2YdCl2UxEaH7Ho44mv5p1T",
+                          "id": "2YdCl2UxEaH7Ho44mv5p1T",
+                          "name": "Justin Davis",
+                          "type": "artist",
+                          "uri": "spotify:artist:2YdCl2UxEaH7Ho44mv5p1T"
+                      }
+                  ],
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/album/2nYXYFRTCy8T2sToS2JplF"
+                  },
+                  "href": "https://api.spotify.com/v1/albums/2nYXYFRTCy8T2sToS2JplF",
+                  "id": "2nYXYFRTCy8T2sToS2JplF",
+                  "images": [
+                      {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273b64ccd309c3cf2bd81881db8",
+                          "width": 640
+                      },
+                      {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02b64ccd309c3cf2bd81881db8",
+                          "width": 300
+                      },
+                      {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851b64ccd309c3cf2bd81881db8",
+                          "width": 64
+                      }
+                  ],
+                  "name": "A Super Clever Musical Comedy Show with a Really Cool Title Season One",
+                  "release_date": "2021-01-29",
+                  "release_date_precision": "day",
+                  "total_tracks": 12,
+                  "type": "album",
+                  "uri": "spotify:album:2nYXYFRTCy8T2sToS2JplF"
+              },
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/2YdCl2UxEaH7Ho44mv5p1T"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/2YdCl2UxEaH7Ho44mv5p1T",
+                      "id": "2YdCl2UxEaH7Ho44mv5p1T",
+                      "name": "Justin Davis",
+                      "type": "artist",
+                      "uri": "spotify:artist:2YdCl2UxEaH7Ho44mv5p1T"
+                  }
+              ],
+              "disc_number": 1,
+              "duration_ms": 203592,
+              "explicit": true,
+              "external_ids": {
+                  "isrc": "TCAFJ2143583"
+              },
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/track/04AueLxLigM1PRA0jCrScY"
+              },
+              "href": "https://api.spotify.com/v1/tracks/04AueLxLigM1PRA0jCrScY",
+              "id": "04AueLxLigM1PRA0jCrScY",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Hello, My Name Is Justin Davis",
+              "popularity": 0,
+              "preview_url": "https://p.scdn.co/mp3-preview/1dd2f9f8cba162aa283d732a2dc8ce2564e7f089?cid=774b29d4f13844c495f206cafdad9c86",
+              "track_number": 2,
+              "type": "track",
+              "uri": "spotify:track:04AueLxLigM1PRA0jCrScY"
+          },
+          {
+              "album": {
+                  "album_type": "single",
+                  "artists": [
+                      {
+                          "external_urls": {
+                              "spotify": "https://open.spotify.com/artist/7C0kLng8PqPMhwGnjUJVVr"
+                          },
+                          "href": "https://api.spotify.com/v1/artists/7C0kLng8PqPMhwGnjUJVVr",
+                          "id": "7C0kLng8PqPMhwGnjUJVVr",
+                          "name": "Florin H",
+                          "type": "artist",
+                          "uri": "spotify:artist:7C0kLng8PqPMhwGnjUJVVr"
+                      }
+                  ],
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/album/56uDDgMed7MrSb7EqMtSJm"
+                  },
+                  "href": "https://api.spotify.com/v1/albums/56uDDgMed7MrSb7EqMtSJm",
+                  "id": "56uDDgMed7MrSb7EqMtSJm",
+                  "images": [
+                      {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b27363a5e40ded0f37ca7b0fdea9",
+                          "width": 640
+                      },
+                      {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e0263a5e40ded0f37ca7b0fdea9",
+                          "width": 300
+                      },
+                      {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d0000485163a5e40ded0f37ca7b0fdea9",
+                          "width": 64
+                      }
+                  ],
+                  "name": "Name This Track",
+                  "release_date": "2011-04-07",
+                  "release_date_precision": "day",
+                  "total_tracks": 4,
+                  "type": "album",
+                  "uri": "spotify:album:56uDDgMed7MrSb7EqMtSJm"
+              },
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/7C0kLng8PqPMhwGnjUJVVr"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/7C0kLng8PqPMhwGnjUJVVr",
+                      "id": "7C0kLng8PqPMhwGnjUJVVr",
+                      "name": "Florin H",
+                      "type": "artist",
+                      "uri": "spotify:artist:7C0kLng8PqPMhwGnjUJVVr"
+                  }
+              ],
+              "disc_number": 1,
+              "duration_ms": 406517,
+              "explicit": false,
+              "external_ids": {
+                  "isrc": "FR6V81149250"
+              },
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/track/57gv7Uv7AX6Tgk3eAPlvdR"
+              },
+              "href": "https://api.spotify.com/v1/tracks/57gv7Uv7AX6Tgk3eAPlvdR",
+              "id": "57gv7Uv7AX6Tgk3eAPlvdR",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Name This Track - Justin De Guzman Remix",
+              "popularity": 0,
+              "preview_url": "https://p.scdn.co/mp3-preview/da903cf1737155dee6c73479041af10e67bc2ee6?cid=774b29d4f13844c495f206cafdad9c86",
+              "track_number": 4,
+              "type": "track",
+              "uri": "spotify:track:57gv7Uv7AX6Tgk3eAPlvdR"
+          },
+          {
+              "album": {
+                  "album_type": "album",
+                  "artists": [
+                      {
+                          "external_urls": {
+                              "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+                          },
+                          "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+                          "id": "0LyfQWJT6nXafLPZqxe9Of",
+                          "name": "Various Artists",
+                          "type": "artist",
+                          "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+                      }
+                  ],
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/album/1wuAXfVkBWlT96L17hyHDQ"
+                  },
+                  "href": "https://api.spotify.com/v1/albums/1wuAXfVkBWlT96L17hyHDQ",
+                  "id": "1wuAXfVkBWlT96L17hyHDQ",
+                  "images": [
+                      {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273a21bf2993eb042c0df0b6020",
+                          "width": 640
+                      },
+                      {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02a21bf2993eb042c0df0b6020",
+                          "width": 300
+                      },
+                      {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851a21bf2993eb042c0df0b6020",
+                          "width": 64
+                      }
+                  ],
+                  "name": "Savior",
+                  "release_date": "2015-09-21",
+                  "release_date_precision": "day",
+                  "total_tracks": 9,
+                  "type": "album",
+                  "uri": "spotify:album:1wuAXfVkBWlT96L17hyHDQ"
+              },
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/4QdaKL9MvzNUAfvzCgZ6dh"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/4QdaKL9MvzNUAfvzCgZ6dh",
+                      "id": "4QdaKL9MvzNUAfvzCgZ6dh",
+                      "name": "Red Tie Music",
+                      "type": "artist",
+                      "uri": "spotify:artist:4QdaKL9MvzNUAfvzCgZ6dh"
+                  },
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/5wvSeacGG7k7t0dMYb9cSe"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/5wvSeacGG7k7t0dMYb9cSe",
+                      "id": "5wvSeacGG7k7t0dMYb9cSe",
+                      "name": "Justin Kintzel",
+                      "type": "artist",
+                      "uri": "spotify:artist:5wvSeacGG7k7t0dMYb9cSe"
+                  }
+              ],
+              "disc_number": 1,
+              "duration_ms": 299733,
+              "explicit": false,
+              "external_ids": {
+                  "isrc": "US2GY1500011"
+              },
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/track/2hHL4bIUsfoOkcIoRhC6Lu"
+              },
+              "href": "https://api.spotify.com/v1/tracks/2hHL4bIUsfoOkcIoRhC6Lu",
+              "id": "2hHL4bIUsfoOkcIoRhC6Lu",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Holy Is the Name (Radio Edit) [feat. Justin Kintzel]",
+              "popularity": 0,
+              "preview_url": "https://p.scdn.co/mp3-preview/06f4dd67a5386280462f4f583d6f0dd57354323b?cid=774b29d4f13844c495f206cafdad9c86",
+              "track_number": 3,
+              "type": "track",
+              "uri": "spotify:track:2hHL4bIUsfoOkcIoRhC6Lu"
+          },
+          {
+              "album": {
+                  "album_type": "single",
+                  "artists": [
+                      {
+                          "external_urls": {
+                              "spotify": "https://open.spotify.com/artist/4TzMUnzUJJzUPe13hBBFRD"
+                          },
+                          "href": "https://api.spotify.com/v1/artists/4TzMUnzUJJzUPe13hBBFRD",
+                          "id": "4TzMUnzUJJzUPe13hBBFRD",
+                          "name": "Scarlette Fever",
+                          "type": "artist",
+                          "uri": "spotify:artist:4TzMUnzUJJzUPe13hBBFRD"
+                      }
+                  ],
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/album/6Igl14TbOu7uuasKLTg4ea"
+                  },
+                  "href": "https://api.spotify.com/v1/albums/6Igl14TbOu7uuasKLTg4ea",
+                  "id": "6Igl14TbOu7uuasKLTg4ea",
+                  "images": [
+                      {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273efce19298ce8b382c3c214d2",
+                          "width": 640
+                      },
+                      {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02efce19298ce8b382c3c214d2",
+                          "width": 300
+                      },
+                      {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851efce19298ce8b382c3c214d2",
+                          "width": 64
+                      }
+                  ],
+                  "name": "Sticky Fingers",
+                  "release_date": "2009-10-25",
+                  "release_date_precision": "day",
+                  "total_tracks": 3,
+                  "type": "album",
+                  "uri": "spotify:album:6Igl14TbOu7uuasKLTg4ea"
+              },
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/4TzMUnzUJJzUPe13hBBFRD"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/4TzMUnzUJJzUPe13hBBFRD",
+                      "id": "4TzMUnzUJJzUPe13hBBFRD",
+                      "name": "Scarlette Fever",
+                      "type": "artist",
+                      "uri": "spotify:artist:4TzMUnzUJJzUPe13hBBFRD"
+                  },
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/7HRVGK9aVeuVwJg2bLfopn"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/7HRVGK9aVeuVwJg2bLfopn",
+                      "id": "7HRVGK9aVeuVwJg2bLfopn",
+                      "name": "Justin Wilkes",
+                      "type": "artist",
+                      "uri": "spotify:artist:7HRVGK9aVeuVwJg2bLfopn"
+                  }
+              ],
+              "disc_number": 1,
+              "duration_ms": 207414,
+              "explicit": false,
+              "external_ids": {
+                  "isrc": "GBMGB0900035"
+              },
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/track/5hYyFJyUQFtjKL4O3uvAJU"
+              },
+              "href": "https://api.spotify.com/v1/tracks/5hYyFJyUQFtjKL4O3uvAJU",
+              "id": "5hYyFJyUQFtjKL4O3uvAJU",
+              "is_local": false,
+              "is_playable": true,
+              "name": "You Don't Know My Name - Justin Wilkes Horizontal Radio Mix",
+              "popularity": 0,
+              "preview_url": "https://p.scdn.co/mp3-preview/39c87bed5142c26540e8d877704b9a6e983f7298?cid=774b29d4f13844c495f206cafdad9c86",
+              "track_number": 2,
+              "type": "track",
+              "uri": "spotify:track:5hYyFJyUQFtjKL4O3uvAJU"
+          },
+          {
+              "album": {
+                  "album_type": "album",
+                  "artists": [
+                      {
+                          "external_urls": {
+                              "spotify": "https://open.spotify.com/artist/7KgW65389e5w4xWzaVOuCg"
+                          },
+                          "href": "https://api.spotify.com/v1/artists/7KgW65389e5w4xWzaVOuCg",
+                          "id": "7KgW65389e5w4xWzaVOuCg",
+                          "name": "Desmond Child",
+                          "type": "artist",
+                          "uri": "spotify:artist:7KgW65389e5w4xWzaVOuCg"
+                      }
+                  ],
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/album/0iALq0TllfGZ8OJOJfH9ck"
+                  },
+                  "href": "https://api.spotify.com/v1/albums/0iALq0TllfGZ8OJOJfH9ck",
+                  "id": "0iALq0TllfGZ8OJOJfH9ck",
+                  "images": [
+                      {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2731dc18a47a2ff8a21f10aeb1b",
+                          "width": 640
+                      },
+                      {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e021dc18a47a2ff8a21f10aeb1b",
+                          "width": 300
+                      },
+                      {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048511dc18a47a2ff8a21f10aeb1b",
+                          "width": 64
+                      }
+                  ],
+                  "name": "Desmond Child Live",
+                  "release_date": "2019-10-25",
+                  "release_date_precision": "day",
+                  "total_tracks": 12,
+                  "type": "album",
+                  "uri": "spotify:album:0iALq0TllfGZ8OJOJfH9ck"
+              },
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/7KgW65389e5w4xWzaVOuCg"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/7KgW65389e5w4xWzaVOuCg",
+                      "id": "7KgW65389e5w4xWzaVOuCg",
+                      "name": "Desmond Child",
+                      "type": "artist",
+                      "uri": "spotify:artist:7KgW65389e5w4xWzaVOuCg"
+                  },
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/41IriUvRabONLgcsOxZrbo"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/41IriUvRabONLgcsOxZrbo",
+                      "id": "41IriUvRabONLgcsOxZrbo",
+                      "name": "Justin Benlolo",
+                      "type": "artist",
+                      "uri": "spotify:artist:41IriUvRabONLgcsOxZrbo"
+                  }
+              ],
+              "disc_number": 1,
+              "duration_ms": 333973,
+              "explicit": false,
+              "external_ids": {
+                  "isrc": "QMRSZ1901748"
+              },
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/track/0KBYxTpzccY7S3SvmKWipB"
+              },
+              "href": "https://api.spotify.com/v1/tracks/0KBYxTpzccY7S3SvmKWipB",
+              "id": "0KBYxTpzccY7S3SvmKWipB",
+              "is_local": false,
+              "is_playable": true,
+              "name": "You Give Love A Bad Name / Dude Looks Like A Lady (feat. Justin Benlolo) - Live",
+              "popularity": 3,
+              "preview_url": "https://p.scdn.co/mp3-preview/37d619837d99dd5d0a0e709f42abc03e832a69db?cid=774b29d4f13844c495f206cafdad9c86",
+              "track_number": 2,
+              "type": "track",
+              "uri": "spotify:track:0KBYxTpzccY7S3SvmKWipB"
+          },
+          {
+              "album": {
+                  "album_type": "single",
+                  "artists": [
+                      {
+                          "external_urls": {
+                              "spotify": "https://open.spotify.com/artist/3VA2V1SIEbe13sz76aRYkN"
+                          },
+                          "href": "https://api.spotify.com/v1/artists/3VA2V1SIEbe13sz76aRYkN",
+                          "id": "3VA2V1SIEbe13sz76aRYkN",
+                          "name": "Vince The Name",
+                          "type": "artist",
+                          "uri": "spotify:artist:3VA2V1SIEbe13sz76aRYkN"
+                      }
+                  ],
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/album/3KVNMuW0rZNyDaJKwn7pT7"
+                  },
+                  "href": "https://api.spotify.com/v1/albums/3KVNMuW0rZNyDaJKwn7pT7",
+                  "id": "3KVNMuW0rZNyDaJKwn7pT7",
+                  "images": [
+                      {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273e4cb87cfac5abaadda6ee5ec",
+                          "width": 640
+                      },
+                      {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02e4cb87cfac5abaadda6ee5ec",
+                          "width": 300
+                      },
+                      {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851e4cb87cfac5abaadda6ee5ec",
+                          "width": 64
+                      }
+                  ],
+                  "name": "V.I.N.N.Y: The Calm Before the Storm",
+                  "release_date": "2019-11-23",
+                  "release_date_precision": "day",
+                  "total_tracks": 6,
+                  "type": "album",
+                  "uri": "spotify:album:3KVNMuW0rZNyDaJKwn7pT7"
+              },
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/3VA2V1SIEbe13sz76aRYkN"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/3VA2V1SIEbe13sz76aRYkN",
+                      "id": "3VA2V1SIEbe13sz76aRYkN",
+                      "name": "Vince The Name",
+                      "type": "artist",
+                      "uri": "spotify:artist:3VA2V1SIEbe13sz76aRYkN"
+                  },
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/3P43AWOvPXTzR638NihWX6"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/3P43AWOvPXTzR638NihWX6",
+                      "id": "3P43AWOvPXTzR638NihWX6",
+                      "name": "Reek Justin",
+                      "type": "artist",
+                      "uri": "spotify:artist:3P43AWOvPXTzR638NihWX6"
+                  }
+              ],
+              "disc_number": 1,
+              "duration_ms": 206106,
+              "explicit": true,
+              "external_ids": {
+                  "isrc": "QZHNC1933211"
+              },
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/track/0NKZ0hbIyRwjGhHXZdRvBk"
+              },
+              "href": "https://api.spotify.com/v1/tracks/0NKZ0hbIyRwjGhHXZdRvBk",
+              "id": "0NKZ0hbIyRwjGhHXZdRvBk",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Conversations With God",
+              "popularity": 0,
+              "preview_url": "https://p.scdn.co/mp3-preview/ea3c8437b543acb6fef8644ef2654b067cadea1d?cid=774b29d4f13844c495f206cafdad9c86",
+              "track_number": 1,
+              "type": "track",
+              "uri": "spotify:track:0NKZ0hbIyRwjGhHXZdRvBk"
+          },
+          {
+              "album": {
+                  "album_type": "album",
+                  "artists": [
+                      {
+                          "external_urls": {
+                              "spotify": "https://open.spotify.com/artist/2OiNnchobdHidcfCyHLDSi"
+                          },
+                          "href": "https://api.spotify.com/v1/artists/2OiNnchobdHidcfCyHLDSi",
+                          "id": "2OiNnchobdHidcfCyHLDSi",
+                          "name": "Your Name Ringtone",
+                          "type": "artist",
+                          "uri": "spotify:artist:2OiNnchobdHidcfCyHLDSi"
+                      }
+                  ],
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/album/5nL8mVvFvUJpdR6Ft4j10z"
+                  },
+                  "href": "https://api.spotify.com/v1/albums/5nL8mVvFvUJpdR6Ft4j10z",
+                  "id": "5nL8mVvFvUJpdR6Ft4j10z",
+                  "images": [
+                      {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273b1c0a94debb83caa9404a910",
+                          "width": 640
+                      },
+                      {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02b1c0a94debb83caa9404a910",
+                          "width": 300
+                      },
+                      {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851b1c0a94debb83caa9404a910",
+                          "width": 64
+                      }
+                  ],
+                  "name": "NameBlast (Rock)",
+                  "release_date": "2010-02-15",
+                  "release_date_precision": "day",
+                  "total_tracks": 591,
+                  "type": "album",
+                  "uri": "spotify:album:5nL8mVvFvUJpdR6Ft4j10z"
+              },
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/2OiNnchobdHidcfCyHLDSi"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/2OiNnchobdHidcfCyHLDSi",
+                      "id": "2OiNnchobdHidcfCyHLDSi",
+                      "name": "Your Name Ringtone",
+                      "type": "artist",
+                      "uri": "spotify:artist:2OiNnchobdHidcfCyHLDSi"
+                  }
+              ],
+              "disc_number": 4,
+              "duration_ms": 17960,
+              "explicit": false,
+              "external_ids": {
+                  "isrc": "uscgh1052101"
+              },
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/track/4FcYUKYVUjwjYnX8j124Zn"
+              },
+              "href": "https://api.spotify.com/v1/tracks/4FcYUKYVUjwjYnX8j124Zn",
+              "id": "4FcYUKYVUjwjYnX8j124Zn",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Justin NameBlast (Rock)",
+              "popularity": 0,
+              "preview_url": null,
+              "track_number": 29,
+              "type": "track",
+              "uri": "spotify:track:4FcYUKYVUjwjYnX8j124Zn"
+          },
+          {
+              "album": {
+                  "album_type": "album",
+                  "artists": [
+                      {
+                          "external_urls": {
+                              "spotify": "https://open.spotify.com/artist/2OiNnchobdHidcfCyHLDSi"
+                          },
+                          "href": "https://api.spotify.com/v1/artists/2OiNnchobdHidcfCyHLDSi",
+                          "id": "2OiNnchobdHidcfCyHLDSi",
+                          "name": "Your Name Ringtone",
+                          "type": "artist",
+                          "uri": "spotify:artist:2OiNnchobdHidcfCyHLDSi"
+                      }
+                  ],
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/album/1R1qOPRv3Qcs5qmscn6iDF"
+                  },
+                  "href": "https://api.spotify.com/v1/albums/1R1qOPRv3Qcs5qmscn6iDF",
+                  "id": "1R1qOPRv3Qcs5qmscn6iDF",
+                  "images": [
+                      {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273d70be7e077a4dfea83b7a7f0",
+                          "width": 640
+                      },
+                      {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02d70be7e077a4dfea83b7a7f0",
+                          "width": 300
+                      },
+                      {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851d70be7e077a4dfea83b7a7f0",
+                          "width": 64
+                      }
+                  ],
+                  "name": "NameBlast (Dance)",
+                  "release_date": "2010-02-15",
+                  "release_date_precision": "day",
+                  "total_tracks": 591,
+                  "type": "album",
+                  "uri": "spotify:album:1R1qOPRv3Qcs5qmscn6iDF"
+              },
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/2OiNnchobdHidcfCyHLDSi"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/2OiNnchobdHidcfCyHLDSi",
+                      "id": "2OiNnchobdHidcfCyHLDSi",
+                      "name": "Your Name Ringtone",
+                      "type": "artist",
+                      "uri": "spotify:artist:2OiNnchobdHidcfCyHLDSi"
+                  }
+              ],
+              "disc_number": 4,
+              "duration_ms": 11120,
+              "explicit": false,
+              "external_ids": {
+                  "isrc": "uscgh1047530"
+              },
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/track/65HsgIdYQTeMyiTmFQMv6C"
+              },
+              "href": "https://api.spotify.com/v1/tracks/65HsgIdYQTeMyiTmFQMv6C",
+              "id": "65HsgIdYQTeMyiTmFQMv6C",
+              "is_local": false,
+              "is_playable": true,
+              "name": "Justin NameBlast (Dance)",
+              "popularity": 0,
+              "preview_url": null,
+              "track_number": 29,
+              "type": "track",
+              "uri": "spotify:track:65HsgIdYQTeMyiTmFQMv6C"
+          },
+          {
+              "album": {
+                  "album_type": "album",
+                  "artists": [
+                      {
+                          "external_urls": {
+                              "spotify": "https://open.spotify.com/artist/1tgQIceqJlc6UaW71nxCpl"
+                          },
+                          "href": "https://api.spotify.com/v1/artists/1tgQIceqJlc6UaW71nxCpl",
+                          "id": "1tgQIceqJlc6UaW71nxCpl",
+                          "name": "The Very Very Awesome Song Band",
+                          "type": "artist",
+                          "uri": "spotify:artist:1tgQIceqJlc6UaW71nxCpl"
+                      }
+                  ],
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/album/4UXMwuQxOwUGFSSkcrAmPf"
+                  },
+                  "href": "https://api.spotify.com/v1/albums/4UXMwuQxOwUGFSSkcrAmPf",
+                  "id": "4UXMwuQxOwUGFSSkcrAmPf",
+                  "images": [
+                      {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b273987010ff3a73312eea1299e5",
+                          "width": 640
+                      },
+                      {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e02987010ff3a73312eea1299e5",
+                          "width": 300
+                      },
+                      {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d00004851987010ff3a73312eea1299e5",
+                          "width": 64
+                      }
+                  ],
+                  "name": "I Am Awesome Vol. 2",
+                  "release_date": "2011-01-23",
+                  "release_date_precision": "day",
+                  "total_tracks": 100,
+                  "type": "album",
+                  "uri": "spotify:album:4UXMwuQxOwUGFSSkcrAmPf"
+              },
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/1tgQIceqJlc6UaW71nxCpl"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/1tgQIceqJlc6UaW71nxCpl",
+                      "id": "1tgQIceqJlc6UaW71nxCpl",
+                      "name": "The Very Very Awesome Song Band",
+                      "type": "artist",
+                      "uri": "spotify:artist:1tgQIceqJlc6UaW71nxCpl"
+                  }
+              ],
+              "disc_number": 1,
+              "duration_ms": 53066,
+              "explicit": false,
+              "external_ids": {
+                  "isrc": "uscgh1130076"
+              },
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/track/0FbZ5b63D5TGzvhu22YLPJ"
+              },
+              "href": "https://api.spotify.com/v1/tracks/0FbZ5b63D5TGzvhu22YLPJ",
+              "id": "0FbZ5b63D5TGzvhu22YLPJ",
+              "is_local": false,
+              "is_playable": true,
+              "name": "My Name is Justin (and I'm awesome)",
+              "popularity": 0,
+              "preview_url": "https://p.scdn.co/mp3-preview/d41e89b7b5c9656ee3c6a11d43c50310d2629b02?cid=774b29d4f13844c495f206cafdad9c86",
+              "track_number": 46,
+              "type": "track",
+              "uri": "spotify:track:0FbZ5b63D5TGzvhu22YLPJ"
+          },
+          {
+              "album": {
+                  "album_type": "album",
+                  "artists": [
+                      {
+                          "external_urls": {
+                              "spotify": "https://open.spotify.com/artist/5aTGegNPzHl0CpmJcPmvgB"
+                          },
+                          "href": "https://api.spotify.com/v1/artists/5aTGegNPzHl0CpmJcPmvgB",
+                          "id": "5aTGegNPzHl0CpmJcPmvgB",
+                          "name": "Say It Messages",
+                          "type": "artist",
+                          "uri": "spotify:artist:5aTGegNPzHl0CpmJcPmvgB"
+                      }
+                  ],
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/album/2txg1KpnCwsEnG6IpVufSz"
+                  },
+                  "href": "https://api.spotify.com/v1/albums/2txg1KpnCwsEnG6IpVufSz",
+                  "id": "2txg1KpnCwsEnG6IpVufSz",
+                  "images": [
+                      {
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab67616d0000b2737d2b4ff2ff35b9c0be2773ce",
+                          "width": 640
+                      },
+                      {
+                          "height": 300,
+                          "url": "https://i.scdn.co/image/ab67616d00001e027d2b4ff2ff35b9c0be2773ce",
+                          "width": 300
+                      },
+                      {
+                          "height": 64,
+                          "url": "https://i.scdn.co/image/ab67616d000048517d2b4ff2ff35b9c0be2773ce",
+                          "width": 64
+                      }
+                  ],
+                  "name": "I Call Your Name (I Love You) Boys Names Vol. I",
+                  "release_date": "2011-09-19",
+                  "release_date_precision": "day",
+                  "total_tracks": 50,
+                  "type": "album",
+                  "uri": "spotify:album:2txg1KpnCwsEnG6IpVufSz"
+              },
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/5aTGegNPzHl0CpmJcPmvgB"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/5aTGegNPzHl0CpmJcPmvgB",
+                      "id": "5aTGegNPzHl0CpmJcPmvgB",
+                      "name": "Say It Messages",
+                      "type": "artist",
+                      "uri": "spotify:artist:5aTGegNPzHl0CpmJcPmvgB"
+                  }
+              ],
+              "disc_number": 1,
+              "duration_ms": 41411,
+              "explicit": false,
+              "external_ids": {
+                  "isrc": "GB9BM1100229"
+              },
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/track/3xrfMVGdykv1jd6rqasl48"
+              },
+              "href": "https://api.spotify.com/v1/tracks/3xrfMVGdykv1jd6rqasl48",
+              "id": "3xrfMVGdykv1jd6rqasl48",
+              "is_local": false,
+              "is_playable": true,
+              "name": "I Call Your Name (I Love You Justin)",
+              "popularity": 0,
+              "preview_url": "https://p.scdn.co/mp3-preview/8daf53bb2f7d1b40be644508112c8dd0b5127f5c?cid=774b29d4f13844c495f206cafdad9c86",
+              "track_number": 29,
+              "type": "track",
+              "uri": "spotify:track:3xrfMVGdykv1jd6rqasl48"
+          }
+      ],
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total": 15
+  },
+  "playlists": {
+      "href": "https://api.spotify.com/v1/search?query=name%3Ajustin&type=playlist&market=ID&offset=0&limit=20",
+      "items": [
+          {
+              "collaborative": false,
+              "description": "Justine Clarke is one of Australia's most popular and versatile entertainers; ARIA Award winning children's music artist, accomplished author, and star of stage &amp; screen. One of Play School's most-loved presenters, Justine has an impressive catalogue of music to her name.",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/playlist/3YIXCX8UdyzSAAMwtvWMns"
+              },
+              "href": "https://api.spotify.com/v1/playlists/3YIXCX8UdyzSAAMwtvWMns",
+              "id": "3YIXCX8UdyzSAAMwtvWMns",
+              "images": [
+                  {
+                      "height": null,
+                      "url": "https://i.scdn.co/image/ab67706c0000bebb3c84a9dc961f513d373dcd78",
+                      "width": null
+                  }
+              ],
+              "name": "The Best of Justine Clarke | Watermelon / Dinosaur Roar / I Like To Sing / Silly Song",
+              "owner": {
+                  "display_name": "ABC Kids",
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/user/abcmusickids"
+                  },
+                  "href": "https://api.spotify.com/v1/users/abcmusickids",
+                  "id": "abcmusickids",
+                  "type": "user",
+                  "uri": "spotify:user:abcmusickids"
+              },
+              "primary_color": null,
+              "public": null,
+              "snapshot_id": "MjkwLGYzZWY5ODkwMzAwODMwYmE0NWZhOTVhODhmY2ZkNmFlZWIyYTQ3YzM=",
+              "tracks": {
+                  "href": "https://api.spotify.com/v1/playlists/3YIXCX8UdyzSAAMwtvWMns/tracks",
+                  "total": 26
+              },
+              "type": "playlist",
+              "uri": "spotify:playlist:3YIXCX8UdyzSAAMwtvWMns"
+          },
+          {
+              "collaborative": false,
+              "description": "A Complete collection of clean Justin Bieber music! Justin Beiber | Clean | Peaches | Peaches clean | Hold on | Holy | Stuck with U | 10,000 hours | Anyone | I don&#x27;t care | Love Yourself | Lonely | Monster Red Eye TROYboi | Stay The Kid Laroi clean Baby | Name | As I Am | JUSTICE Clean | radio",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/playlist/3rQ1ORGUAc5Ut0ViOQb9I3"
+              },
+              "href": "https://api.spotify.com/v1/playlists/3rQ1ORGUAc5Ut0ViOQb9I3",
+              "id": "3rQ1ORGUAc5Ut0ViOQb9I3",
+              "images": [
+                  {
+                      "height": null,
+                      "url": "https://i.scdn.co/image/ab67706c0000bebbd43c479fcc100c439efc73eb",
+                      "width": null
+                  }
+              ],
+              "name": "Justin Bieber Complete - Clean ⚡️ Peaches Clean  ⚡️ Stay Clean The Kid Laroi Clean",
+              "owner": {
+                  "display_name": "Hillside Playlists",
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/user/nsosz32w7004r00cx9rilkscq"
+                  },
+                  "href": "https://api.spotify.com/v1/users/nsosz32w7004r00cx9rilkscq",
+                  "id": "nsosz32w7004r00cx9rilkscq",
+                  "type": "user",
+                  "uri": "spotify:user:nsosz32w7004r00cx9rilkscq"
+              },
+              "primary_color": null,
+              "public": null,
+              "snapshot_id": "Mjk5LGQ0ZDI0NzE4MTM5NjgxM2Y2MDMxNmMxMmQ2ZDc1NzdmMzdmOWRmYTg=",
+              "tracks": {
+                  "href": "https://api.spotify.com/v1/playlists/3rQ1ORGUAc5Ut0ViOQb9I3/tracks",
+                  "total": 143
+              },
+              "type": "playlist",
+              "uri": "spotify:playlist:3rQ1ORGUAc5Ut0ViOQb9I3"
+          },
+          {
+              "collaborative": false,
+              "description": "",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/playlist/64g58VCzk51WvOlYkmtlVy"
+              },
+              "href": "https://api.spotify.com/v1/playlists/64g58VCzk51WvOlYkmtlVy",
+              "id": "64g58VCzk51WvOlYkmtlVy",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://mosaic.scdn.co/640/ab67616d0000b2730cd942c1a864afa4e92d04f2ab67616d0000b2732143db1c88358d70dd898aa3ab67616d0000b273a493e05c99d8ec5e8020ff2bab67616d0000b273ce159a3ba2096e13fa9d4b4c",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://mosaic.scdn.co/300/ab67616d0000b2730cd942c1a864afa4e92d04f2ab67616d0000b2732143db1c88358d70dd898aa3ab67616d0000b273a493e05c99d8ec5e8020ff2bab67616d0000b273ce159a3ba2096e13fa9d4b4c",
+                      "width": 300
+                  },
+                  {
+                      "height": 60,
+                      "url": "https://mosaic.scdn.co/60/ab67616d0000b2730cd942c1a864afa4e92d04f2ab67616d0000b2732143db1c88358d70dd898aa3ab67616d0000b273a493e05c99d8ec5e8020ff2bab67616d0000b273ce159a3ba2096e13fa9d4b4c",
+                      "width": 60
+                  }
+              ],
+              "name": "Named Justinnn",
+              "owner": {
+                  "display_name": "EvanT99",
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/user/0dnmkuna3yh2hht4lam7ehx91"
+                  },
+                  "href": "https://api.spotify.com/v1/users/0dnmkuna3yh2hht4lam7ehx91",
+                  "id": "0dnmkuna3yh2hht4lam7ehx91",
+                  "type": "user",
+                  "uri": "spotify:user:0dnmkuna3yh2hht4lam7ehx91"
+              },
+              "primary_color": null,
+              "public": null,
+              "snapshot_id": "MTIxLGZiOWU0MWFkYmZmMDY2NjExZjZmYjkyZjE2MWQ2MjA3YWYxY2JjNmU=",
+              "tracks": {
+                  "href": "https://api.spotify.com/v1/playlists/64g58VCzk51WvOlYkmtlVy/tracks",
+                  "total": 49
+              },
+              "type": "playlist",
+              "uri": "spotify:playlist:64g58VCzk51WvOlYkmtlVy"
+          },
+          {
+              "collaborative": false,
+              "description": "Remixes of all your favourite songs from Ed Sheeran and Rag &#x27;n&#x27; Bone Man to Alessia Cara and Justin Bieber to Zara Larsson and Dua Lipa. Remixes by various artists including Alan Walker, R3hab, Tiesto, and Martin Garrix to name just a few. Enjoy and please send feedback if you have it!",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/playlist/7MsNC37g8CevL2yGIGja0t"
+              },
+              "href": "https://api.spotify.com/v1/playlists/7MsNC37g8CevL2yGIGja0t",
+              "id": "7MsNC37g8CevL2yGIGja0t",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://mosaic.scdn.co/640/ab67616d0000b2730aacfea72fdb370310613aecab67616d0000b2730ab4e483a469698633a70ce9ab67616d0000b273364444170bd8b905d04daabeab67616d0000b273b3d3bc4a582eb2bc1ed4c61a",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://mosaic.scdn.co/300/ab67616d0000b2730aacfea72fdb370310613aecab67616d0000b2730ab4e483a469698633a70ce9ab67616d0000b273364444170bd8b905d04daabeab67616d0000b273b3d3bc4a582eb2bc1ed4c61a",
+                      "width": 300
+                  },
+                  {
+                      "height": 60,
+                      "url": "https://mosaic.scdn.co/60/ab67616d0000b2730aacfea72fdb370310613aecab67616d0000b2730ab4e483a469698633a70ce9ab67616d0000b273364444170bd8b905d04daabeab67616d0000b273b3d3bc4a582eb2bc1ed4c61a",
+                      "width": 60
+                  }
+              ],
+              "name": "Popular Song Remixes - Old and New",
+              "owner": {
+                  "display_name": "brendonfeeley",
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/user/brendonfeeley"
+                  },
+                  "href": "https://api.spotify.com/v1/users/brendonfeeley",
+                  "id": "brendonfeeley",
+                  "type": "user",
+                  "uri": "spotify:user:brendonfeeley"
+              },
+              "primary_color": null,
+              "public": null,
+              "snapshot_id": "MTQ3LDM3YmMzMGEwZjg0NDM5MWIwMzg1MWE2NmI2M2IyYjU5Nzc5NGNjYWY=",
+              "tracks": {
+                  "href": "https://api.spotify.com/v1/playlists/7MsNC37g8CevL2yGIGja0t/tracks",
+                  "total": 141
+              },
+              "type": "playlist",
+              "uri": "spotify:playlist:7MsNC37g8CevL2yGIGja0t"
+          },
+          {
+              "collaborative": false,
+              "description": "",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/playlist/5lDKkjp7FNzWjBSBhavE6o"
+              },
+              "href": "https://api.spotify.com/v1/playlists/5lDKkjp7FNzWjBSBhavE6o",
+              "id": "5lDKkjp7FNzWjBSBhavE6o",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://mosaic.scdn.co/640/ab67616d0000b2734c661ea593496e940bc2965bab67616d0000b273698c11528e14ba96af68f973ab67616d0000b273d6fd719531afda5f9cc0e248ab67616d0000b273e71a5005c37e8c2ffd9beda8",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://mosaic.scdn.co/300/ab67616d0000b2734c661ea593496e940bc2965bab67616d0000b273698c11528e14ba96af68f973ab67616d0000b273d6fd719531afda5f9cc0e248ab67616d0000b273e71a5005c37e8c2ffd9beda8",
+                      "width": 300
+                  },
+                  {
+                      "height": 60,
+                      "url": "https://mosaic.scdn.co/60/ab67616d0000b2734c661ea593496e940bc2965bab67616d0000b273698c11528e14ba96af68f973ab67616d0000b273d6fd719531afda5f9cc0e248ab67616d0000b273e71a5005c37e8c2ffd9beda8",
+                      "width": 60
+                  }
+              ],
+              "name": "The boy name Justin",
+              "owner": {
+                  "display_name": "julie",
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/user/31kjyrvsl4c4dfftpu6nvry6yrt4"
+                  },
+                  "href": "https://api.spotify.com/v1/users/31kjyrvsl4c4dfftpu6nvry6yrt4",
+                  "id": "31kjyrvsl4c4dfftpu6nvry6yrt4",
+                  "type": "user",
+                  "uri": "spotify:user:31kjyrvsl4c4dfftpu6nvry6yrt4"
+              },
+              "primary_color": null,
+              "public": null,
+              "snapshot_id": "NTgsMjUzNjc3NTlkMjBmYzgwNzM0MWRiMjhiMzNjYTM2ZGYyYWE2MGE3MQ==",
+              "tracks": {
+                  "href": "https://api.spotify.com/v1/playlists/5lDKkjp7FNzWjBSBhavE6o/tracks",
+                  "total": 57
+              },
+              "type": "playlist",
+              "uri": "spotify:playlist:5lDKkjp7FNzWjBSBhavE6o"
+          },
+          {
+              "collaborative": false,
+              "description": "Natti Natasha x Becky G - Ram Pam Pam. Carlos Vives, Ricky Martin - Canción Bonita. Lil Nas X - MONTERO (Call Me By Your Name), KAROL G, Mariah Angeliq, Justin Quiles x Arcangel x Dalex",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/playlist/7mMLwd9ee7Hny9v3GRZjE1"
+              },
+              "href": "https://api.spotify.com/v1/playlists/7mMLwd9ee7Hny9v3GRZjE1",
+              "id": "7mMLwd9ee7Hny9v3GRZjE1",
+              "images": [
+                  {
+                      "height": null,
+                      "url": "https://i.scdn.co/image/ab67706c0000bebb21af39d3054a51f1a8841e0b",
+                      "width": null
+                  }
+              ],
+              "name": "Ram Pam Pam - Natti Natasha x Becky G",
+              "owner": {
+                  "display_name": "Rau",
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/user/l7s3e6a87pbzeptase67eq603"
+                  },
+                  "href": "https://api.spotify.com/v1/users/l7s3e6a87pbzeptase67eq603",
+                  "id": "l7s3e6a87pbzeptase67eq603",
+                  "type": "user",
+                  "uri": "spotify:user:l7s3e6a87pbzeptase67eq603"
+              },
+              "primary_color": null,
+              "public": null,
+              "snapshot_id": "MTE2LDhiY2E4YzI3OTVmOWEwZTMzMDI5NTlhNDhhMmM5NGUxYTg3MTViZjA=",
+              "tracks": {
+                  "href": "https://api.spotify.com/v1/playlists/7mMLwd9ee7Hny9v3GRZjE1/tracks",
+                  "total": 58
+              },
+              "type": "playlist",
+              "uri": "spotify:playlist:7mMLwd9ee7Hny9v3GRZjE1"
+          },
+          {
+              "collaborative": false,
+              "description": "",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/playlist/3V8TZOznxlGnnbclupllAV"
+              },
+              "href": "https://api.spotify.com/v1/playlists/3V8TZOznxlGnnbclupllAV",
+              "id": "3V8TZOznxlGnnbclupllAV",
+              "images": [
+                  {
+                      "height": null,
+                      "url": "https://i.scdn.co/image/ab67706c0000bebbdab4effd06ce3e164e45ed68",
+                      "width": null
+                  }
+              ],
+              "name": "If ur name is not Justin, please do not add songs to the playlist",
+              "owner": {
+                  "display_name": "Abigailbooton",
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/user/3483e5kmi79inbau4vj4ik5le"
+                  },
+                  "href": "https://api.spotify.com/v1/users/3483e5kmi79inbau4vj4ik5le",
+                  "id": "3483e5kmi79inbau4vj4ik5le",
+                  "type": "user",
+                  "uri": "spotify:user:3483e5kmi79inbau4vj4ik5le"
+              },
+              "primary_color": null,
+              "public": null,
+              "snapshot_id": "NDMwLGUzMjdhN2M3ZDIyZjg2OWQ2ZGUyNWM4NGY0NzM0ZTI2M2I0ZmY1MjU=",
+              "tracks": {
+                  "href": "https://api.spotify.com/v1/playlists/3V8TZOznxlGnnbclupllAV/tracks",
+                  "total": 193
+              },
+              "type": "playlist",
+              "uri": "spotify:playlist:3V8TZOznxlGnnbclupllAV"
+          },
+          {
+              "collaborative": false,
+              "description": "",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/playlist/3BFs7LSVpQQxppTixuDrrK"
+              },
+              "href": "https://api.spotify.com/v1/playlists/3BFs7LSVpQQxppTixuDrrK",
+              "id": "3BFs7LSVpQQxppTixuDrrK",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://mosaic.scdn.co/640/ab67616d0000b27312e57573cbc551c187a96107ab67616d0000b27337a5a19e52f8260b3b158e55ab67616d0000b273a01fed49fe3a84a9919cef29ab67616d0000b273bc805943adb4adde1555b130",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://mosaic.scdn.co/300/ab67616d0000b27312e57573cbc551c187a96107ab67616d0000b27337a5a19e52f8260b3b158e55ab67616d0000b273a01fed49fe3a84a9919cef29ab67616d0000b273bc805943adb4adde1555b130",
+                      "width": 300
+                  },
+                  {
+                      "height": 60,
+                      "url": "https://mosaic.scdn.co/60/ab67616d0000b27312e57573cbc551c187a96107ab67616d0000b27337a5a19e52f8260b3b158e55ab67616d0000b273a01fed49fe3a84a9919cef29ab67616d0000b273bc805943adb4adde1555b130",
+                      "width": 60
+                  }
+              ],
+              "name": "Name (feat. Tori Kelly) – Justin Bieber",
+              "owner": {
+                  "display_name": "Lali",
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/user/94pepm7yc9tsy6c1cbghaym8v"
+                  },
+                  "href": "https://api.spotify.com/v1/users/94pepm7yc9tsy6c1cbghaym8v",
+                  "id": "94pepm7yc9tsy6c1cbghaym8v",
+                  "type": "user",
+                  "uri": "spotify:user:94pepm7yc9tsy6c1cbghaym8v"
+              },
+              "primary_color": null,
+              "public": null,
+              "snapshot_id": "NDUsOTI2NmJkMDkzMzY0MjAzNjM3YTMxZjM3M2JkMTIxMzJlYjhlN2E1ZQ==",
+              "tracks": {
+                  "href": "https://api.spotify.com/v1/playlists/3BFs7LSVpQQxppTixuDrrK/tracks",
+                  "total": 24
+              },
+              "type": "playlist",
+              "uri": "spotify:playlist:3BFs7LSVpQQxppTixuDrrK"
+          },
+          {
+              "collaborative": false,
+              "description": "Hello My Name Is Arvo And This Is My Justin Bieber Playlist",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/playlist/62yaZrzUiojdD3JOoHcvZL"
+              },
+              "href": "https://api.spotify.com/v1/playlists/62yaZrzUiojdD3JOoHcvZL",
+              "id": "62yaZrzUiojdD3JOoHcvZL",
+              "images": [
+                  {
+                      "height": null,
+                      "url": "https://i.scdn.co/image/ab67706c0000bebbfa55299da90625f853afbd88",
+                      "width": null
+                  }
+              ],
+              "name": "Arvo's Justin Bieber Playlist",
+              "owner": {
+                  "display_name": "Arvo",
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/user/12176685251"
+                  },
+                  "href": "https://api.spotify.com/v1/users/12176685251",
+                  "id": "12176685251",
+                  "type": "user",
+                  "uri": "spotify:user:12176685251"
+              },
+              "primary_color": null,
+              "public": null,
+              "snapshot_id": "NTIsMDMyNDA1MWMyYWFhZDVkOGMzMDE2N2VkMDAwOTVkN2E4MmM2ZWRiYw==",
+              "tracks": {
+                  "href": "https://api.spotify.com/v1/playlists/62yaZrzUiojdD3JOoHcvZL/tracks",
+                  "total": 34
+              },
+              "type": "playlist",
+              "uri": "spotify:playlist:62yaZrzUiojdD3JOoHcvZL"
+          },
+          {
+              "collaborative": false,
+              "description": "",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/playlist/6CJdanqTZ1LCrRqv9cX9EJ"
+              },
+              "href": "https://api.spotify.com/v1/playlists/6CJdanqTZ1LCrRqv9cX9EJ",
+              "id": "6CJdanqTZ1LCrRqv9cX9EJ",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://mosaic.scdn.co/640/ab67616d0000b2738e6551a2944764bc8e33a960ab67616d0000b273a01fed49fe3a84a9919cef29ab67616d0000b273dcd4d70294f17175991ba1bbab67616d0000b273e6f407c7f3a0ec98845e4431",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://mosaic.scdn.co/300/ab67616d0000b2738e6551a2944764bc8e33a960ab67616d0000b273a01fed49fe3a84a9919cef29ab67616d0000b273dcd4d70294f17175991ba1bbab67616d0000b273e6f407c7f3a0ec98845e4431",
+                      "width": 300
+                  },
+                  {
+                      "height": 60,
+                      "url": "https://mosaic.scdn.co/60/ab67616d0000b2738e6551a2944764bc8e33a960ab67616d0000b273a01fed49fe3a84a9919cef29ab67616d0000b273dcd4d70294f17175991ba1bbab67616d0000b273e6f407c7f3a0ec98845e4431",
+                      "width": 60
+                  }
+              ],
+              "name": "My name is Justin",
+              "owner": {
+                  "display_name": "Erry Ernesto",
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/user/21nlj4o6x5lgw7c7ngphddymi"
+                  },
+                  "href": "https://api.spotify.com/v1/users/21nlj4o6x5lgw7c7ngphddymi",
+                  "id": "21nlj4o6x5lgw7c7ngphddymi",
+                  "type": "user",
+                  "uri": "spotify:user:21nlj4o6x5lgw7c7ngphddymi"
+              },
+              "primary_color": null,
+              "public": null,
+              "snapshot_id": "MTcsZDdiZTkzZDY4YTZmMmRiZGUwZTA3NmMxMjY2MWY4NWFjY2IxNGM5Mg==",
+              "tracks": {
+                  "href": "https://api.spotify.com/v1/playlists/6CJdanqTZ1LCrRqv9cX9EJ/tracks",
+                  "total": 16
+              },
+              "type": "playlist",
+              "uri": "spotify:playlist:6CJdanqTZ1LCrRqv9cX9EJ"
+          },
+          {
+              "collaborative": false,
+              "description": "Remember The Name by Ed Sheeran, Eminem, 50 Cent. Artist - Justin Biber, Chance The Rapper, PnB Rock, Drake, Eminem, Zatrix, Skrillex, Ariana Grande, Camila Cabello, Cardi B, 50 Cent, Khalid, Travis Scott, Young Thug, Ella Mai, Bruno Mars",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/playlist/1Zu1LfXpo1OHUHgsNsINlh"
+              },
+              "href": "https://api.spotify.com/v1/playlists/1Zu1LfXpo1OHUHgsNsINlh",
+              "id": "1Zu1LfXpo1OHUHgsNsINlh",
+              "images": [
+                  {
+                      "height": null,
+                      "url": "https://i.scdn.co/image/ab67706c0000bebb026f5e8723dcb1e024d03571",
+                      "width": null
+                  }
+              ],
+              "name": "Ed Sheeran, Eminem & 50 Cent - Remember The Name",
+              "owner": {
+                  "display_name": "upvrwng4ca3etw1r0gpgiffuz",
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/user/upvrwng4ca3etw1r0gpgiffuz"
+                  },
+                  "href": "https://api.spotify.com/v1/users/upvrwng4ca3etw1r0gpgiffuz",
+                  "id": "upvrwng4ca3etw1r0gpgiffuz",
+                  "type": "user",
+                  "uri": "spotify:user:upvrwng4ca3etw1r0gpgiffuz"
+              },
+              "primary_color": null,
+              "public": null,
+              "snapshot_id": "NjQsNzRjMDQ0ZWYyNGQ1NmQ5N2QwOTFjZmYyMGJlMGUxODZhZDMxNWVkMA==",
+              "tracks": {
+                  "href": "https://api.spotify.com/v1/playlists/1Zu1LfXpo1OHUHgsNsINlh/tracks",
+                  "total": 26
+              },
+              "type": "playlist",
+              "uri": "spotify:playlist:1Zu1LfXpo1OHUHgsNsINlh"
+          },
+          {
+              "collaborative": false,
+              "description": "Feel It, Hatin On The Club (Feat. The Dream), Sexuality, Put It Up, Winning Woman (Feat. Nicole Scherzinger), Hole In My Head (Feat. Justin Timberlake), Your Love, Emergency Room (Feat. Akon), Answer, My Name Is Rihanna, Counterfeit, Whipping My Hair, Bad Girl, Just Feel It, Bubble Pop",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/playlist/2wzJ5giIZTJFZOxqKnGifq"
+              },
+              "href": "https://api.spotify.com/v1/playlists/2wzJ5giIZTJFZOxqKnGifq",
+              "id": "2wzJ5giIZTJFZOxqKnGifq",
+              "images": [
+                  {
+                      "height": null,
+                      "url": "https://i.scdn.co/image/ab67706c0000bebbfe1932692661218bae200b07",
+                      "width": null
+                  }
+              ],
+              "name": "Rihanna reign just won't let up",
+              "owner": {
+                  "display_name": "Efrén Dguez",
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/user/efrendguez"
+                  },
+                  "href": "https://api.spotify.com/v1/users/efrendguez",
+                  "id": "efrendguez",
+                  "type": "user",
+                  "uri": "spotify:user:efrendguez"
+              },
+              "primary_color": null,
+              "public": null,
+              "snapshot_id": "MzQ2LDkwNDI2NjAyZWIwMzAyYmZhZjllMzdiNDM2NzQ5ZWFmM2Y2MzJmMmU=",
+              "tracks": {
+                  "href": "https://api.spotify.com/v1/playlists/2wzJ5giIZTJFZOxqKnGifq/tracks",
+                  "total": 159
+              },
+              "type": "playlist",
+              "uri": "spotify:playlist:2wzJ5giIZTJFZOxqKnGifq"
+          },
+          {
+              "collaborative": false,
+              "description": "greatest musician of all time (jb, ahmad dhani, ahmad bustomi)",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/playlist/3P6LbEA09N7IlMkgAgXCv5"
+              },
+              "href": "https://api.spotify.com/v1/playlists/3P6LbEA09N7IlMkgAgXCv5",
+              "id": "3P6LbEA09N7IlMkgAgXCv5",
+              "images": [
+                  {
+                      "height": null,
+                      "url": "https://i.scdn.co/image/ab67706c0000bebb26d99bf5b9d5735fcacad464",
+                      "width": null
+                  }
+              ],
+              "name": "put some respect on justin's name",
+              "owner": {
+                  "display_name": "fadly pake y",
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/user/nx0h67nmh6wdqif1u000pn7t1"
+                  },
+                  "href": "https://api.spotify.com/v1/users/nx0h67nmh6wdqif1u000pn7t1",
+                  "id": "nx0h67nmh6wdqif1u000pn7t1",
+                  "type": "user",
+                  "uri": "spotify:user:nx0h67nmh6wdqif1u000pn7t1"
+              },
+              "primary_color": null,
+              "public": null,
+              "snapshot_id": "NDMsNTQ1YjUxZDdkOWIzODRlNDIxZGQzY2QzNmQwMzUyOGFkOTZkOGRiZg==",
+              "tracks": {
+                  "href": "https://api.spotify.com/v1/playlists/3P6LbEA09N7IlMkgAgXCv5/tracks",
+                  "total": 38
+              },
+              "type": "playlist",
+              "uri": "spotify:playlist:3P6LbEA09N7IlMkgAgXCv5"
+          },
+          {
+              "collaborative": false,
+              "description": "Copy Justin&#x27;s Playlist name",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/playlist/3wMFLxnkcShHBKZNagDEvW"
+              },
+              "href": "https://api.spotify.com/v1/playlists/3wMFLxnkcShHBKZNagDEvW",
+              "id": "3wMFLxnkcShHBKZNagDEvW",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://mosaic.scdn.co/640/ab67616d0000b2730930686d41216329ac33526bab67616d0000b27323c9d9e500098fa90b97b4e0ab67616d0000b2738d2eb789406717dbad5fcd25ab67616d0000b273cf7a272aac421131d68a689b",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://mosaic.scdn.co/300/ab67616d0000b2730930686d41216329ac33526bab67616d0000b27323c9d9e500098fa90b97b4e0ab67616d0000b2738d2eb789406717dbad5fcd25ab67616d0000b273cf7a272aac421131d68a689b",
+                      "width": 300
+                  },
+                  {
+                      "height": 60,
+                      "url": "https://mosaic.scdn.co/60/ab67616d0000b2730930686d41216329ac33526bab67616d0000b27323c9d9e500098fa90b97b4e0ab67616d0000b2738d2eb789406717dbad5fcd25ab67616d0000b273cf7a272aac421131d68a689b",
+                      "width": 60
+                  }
+              ],
+              "name": "ToBeListened2",
+              "owner": {
+                  "display_name": "Brayden Murrihy",
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/user/1231155978"
+                  },
+                  "href": "https://api.spotify.com/v1/users/1231155978",
+                  "id": "1231155978",
+                  "type": "user",
+                  "uri": "spotify:user:1231155978"
+              },
+              "primary_color": null,
+              "public": null,
+              "snapshot_id": "NDA3Niw0YzlhOWEzMTNkZTJkN2EyYzdmNmZkMGE2ODVkMmY1MjViMjZjN2Jj",
+              "tracks": {
+                  "href": "https://api.spotify.com/v1/playlists/3wMFLxnkcShHBKZNagDEvW/tracks",
+                  "total": 5
+              },
+              "type": "playlist",
+              "uri": "spotify:playlist:3wMFLxnkcShHBKZNagDEvW"
+          },
+          {
+              "collaborative": false,
+              "description": "hi, i am a trans guy, the names justin, i made this because its tunes i enjoy, thanks for listening :)",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/playlist/3YfCUwFTdJhNicCH1Im4cX"
+              },
+              "href": "https://api.spotify.com/v1/playlists/3YfCUwFTdJhNicCH1Im4cX",
+              "id": "3YfCUwFTdJhNicCH1Im4cX",
+              "images": [
+                  {
+                      "height": null,
+                      "url": "https://i.scdn.co/image/ab67706c0000bebba36d4f3a7a3dc982856f1c32",
+                      "width": null
+                  }
+              ],
+              "name": "soft boy",
+              "owner": {
+                  "display_name": "thisjustiin",
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/user/ashleyyjb2020"
+                  },
+                  "href": "https://api.spotify.com/v1/users/ashleyyjb2020",
+                  "id": "ashleyyjb2020",
+                  "type": "user",
+                  "uri": "spotify:user:ashleyyjb2020"
+              },
+              "primary_color": null,
+              "public": null,
+              "snapshot_id": "MTMzOSw1M2ZkYTJmNzZkM2EyODFhYTE1ODcxN2U5MWFjOTZkMzU2NWJmMWY2",
+              "tracks": {
+                  "href": "https://api.spotify.com/v1/playlists/3YfCUwFTdJhNicCH1Im4cX/tracks",
+                  "total": 39
+              },
+              "type": "playlist",
+              "uri": "spotify:playlist:3YfCUwFTdJhNicCH1Im4cX"
+          },
+          {
+              "collaborative": false,
+              "description": "Yeahhh the title is supposed to be a pun…. My car’s name is Justin…..The Band Camino is a vibe tho🥱",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/playlist/0Dszy2oWGU3G7O8vvhTkrT"
+              },
+              "href": "https://api.spotify.com/v1/playlists/0Dszy2oWGU3G7O8vvhTkrT",
+              "id": "0Dszy2oWGU3G7O8vvhTkrT",
+              "images": [
+                  {
+                      "height": null,
+                      "url": "https://i.scdn.co/image/ab67706c0000bebb64866e8265389e1b60054f75",
+                      "width": null
+                  }
+              ],
+              "name": "Just_in my car🚗✌🏼😂",
+              "owner": {
+                  "display_name": "_benji.king_",
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/user/zhwya5x4aok11ut9oqzc2muuq"
+                  },
+                  "href": "https://api.spotify.com/v1/users/zhwya5x4aok11ut9oqzc2muuq",
+                  "id": "zhwya5x4aok11ut9oqzc2muuq",
+                  "type": "user",
+                  "uri": "spotify:user:zhwya5x4aok11ut9oqzc2muuq"
+              },
+              "primary_color": null,
+              "public": null,
+              "snapshot_id": "MTc4LGQyYzNkZjc3NDhjNWM1NDIxZWZjYWI1YTk3ZDI4MDY5ODc2ODQzY2Y=",
+              "tracks": {
+                  "href": "https://api.spotify.com/v1/playlists/0Dszy2oWGU3G7O8vvhTkrT/tracks",
+                  "total": 114
+              },
+              "type": "playlist",
+              "uri": "spotify:playlist:0Dszy2oWGU3G7O8vvhTkrT"
+          },
+          {
+              "collaborative": false,
+              "description": "what&#x27;s the band&#x27;s name again? uhhh sirenhead - justin",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/playlist/0nk7P5rrEloKDN6gJuutCY"
+              },
+              "href": "https://api.spotify.com/v1/playlists/0nk7P5rrEloKDN6gJuutCY",
+              "id": "0nk7P5rrEloKDN6gJuutCY",
+              "images": [
+                  {
+                      "height": null,
+                      "url": "https://i.scdn.co/image/ab67706c0000bebbca055289c3d35141b36c5c39",
+                      "width": null
+                  }
+              ],
+              "name": "Radiohead",
+              "owner": {
+                  "display_name": "Diego G.",
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/user/inr5qnbnpof6h0fkfsrstoh8i"
+                  },
+                  "href": "https://api.spotify.com/v1/users/inr5qnbnpof6h0fkfsrstoh8i",
+                  "id": "inr5qnbnpof6h0fkfsrstoh8i",
+                  "type": "user",
+                  "uri": "spotify:user:inr5qnbnpof6h0fkfsrstoh8i"
+              },
+              "primary_color": null,
+              "public": null,
+              "snapshot_id": "MjE0LGY4ZDUxOGMwYThlMTZkZDJjOTk3ZGU5MTgxZTM2ZDA4YjZiMmM5Y2I=",
+              "tracks": {
+                  "href": "https://api.spotify.com/v1/playlists/0nk7P5rrEloKDN6gJuutCY/tracks",
+                  "total": 82
+              },
+              "type": "playlist",
+              "uri": "spotify:playlist:0nk7P5rrEloKDN6gJuutCY"
+          },
+          {
+              "collaborative": false,
+              "description": "These are the classics, in the familiar styles of your household names.Ariana Grande, Sia,Elton John, Boney M, The Backstreet Boys, and Justin Bieber unite the family that&#x27;s home for the holidays. There&#x27;s something for everyone at your Christmas table today. Submissions to songs@christmasplaylists.n",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/playlist/1N2hrsTwXorIox6coyvUa8"
+              },
+              "href": "https://api.spotify.com/v1/playlists/1N2hrsTwXorIox6coyvUa8",
+              "id": "1N2hrsTwXorIox6coyvUa8",
+              "images": [
+                  {
+                      "height": null,
+                      "url": "https://i.scdn.co/image/ab67706c0000bebb748f00b78040eae4c2814093",
+                      "width": null
+                  }
+              ],
+              "name": "Fantastic Christmas Hits!",
+              "owner": {
+                  "display_name": "Christmas Playlists",
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/user/fvxr28bj7ls9crb9x16ts8sr1"
+                  },
+                  "href": "https://api.spotify.com/v1/users/fvxr28bj7ls9crb9x16ts8sr1",
+                  "id": "fvxr28bj7ls9crb9x16ts8sr1",
+                  "type": "user",
+                  "uri": "spotify:user:fvxr28bj7ls9crb9x16ts8sr1"
+              },
+              "primary_color": null,
+              "public": null,
+              "snapshot_id": "MzI4LGEwN2NkYTI2YWRmZmRlZTE1NjI2MzIxOTIzNzViODk4NDM4NGQyNjQ=",
+              "tracks": {
+                  "href": "https://api.spotify.com/v1/playlists/1N2hrsTwXorIox6coyvUa8/tracks",
+                  "total": 83
+              },
+              "type": "playlist",
+              "uri": "spotify:playlist:1N2hrsTwXorIox6coyvUa8"
+          },
+          {
+              "collaborative": false,
+              "description": "bless your day with kidrauhl, bizzle, rick the sizzler or justin bieber... no matter the name you know him as!",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/playlist/4Vn9g64q3A5FO6kEEmA0kP"
+              },
+              "href": "https://api.spotify.com/v1/playlists/4Vn9g64q3A5FO6kEEmA0kP",
+              "id": "4Vn9g64q3A5FO6kEEmA0kP",
+              "images": [
+                  {
+                      "height": null,
+                      "url": "https://i.scdn.co/image/ab67706c0000bebbf48511103ca68c8324cfee9a",
+                      "width": null
+                  }
+              ],
+              "name": "i love justin",
+              "owner": {
+                  "display_name": "Olivia Ryan",
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/user/22hohhcgywbauknf7wyzsbqpi"
+                  },
+                  "href": "https://api.spotify.com/v1/users/22hohhcgywbauknf7wyzsbqpi",
+                  "id": "22hohhcgywbauknf7wyzsbqpi",
+                  "type": "user",
+                  "uri": "spotify:user:22hohhcgywbauknf7wyzsbqpi"
+              },
+              "primary_color": null,
+              "public": null,
+              "snapshot_id": "MTA0LGRmZjM4MGM2NGIzYjRjY2YzMTYwYmY4OTZhMDhiZTRmMmFjYTM1MzI=",
+              "tracks": {
+                  "href": "https://api.spotify.com/v1/playlists/4Vn9g64q3A5FO6kEEmA0kP/tracks",
+                  "total": 164
+              },
+              "type": "playlist",
+              "uri": "spotify:playlist:4Vn9g64q3A5FO6kEEmA0kP"
+          },
+          {
+              "collaborative": false,
+              "description": "",
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/playlist/2hUkNyMujgV82Go8gTNVqu"
+              },
+              "href": "https://api.spotify.com/v1/playlists/2hUkNyMujgV82Go8gTNVqu",
+              "id": "2hUkNyMujgV82Go8gTNVqu",
+              "images": [
+                  {
+                      "height": null,
+                      "url": "https://i.scdn.co/image/ab67706c0000bebb451678a10218c655b4ded40c",
+                      "width": null
+                  }
+              ],
+              "name": "For someone named Justin",
+              "owner": {
+                  "display_name": "jttw2",
+                  "external_urls": {
+                      "spotify": "https://open.spotify.com/user/jttw2"
+                  },
+                  "href": "https://api.spotify.com/v1/users/jttw2",
+                  "id": "jttw2",
+                  "type": "user",
+                  "uri": "spotify:user:jttw2"
+              },
+              "primary_color": null,
+              "public": null,
+              "snapshot_id": "NjMsYmJlMTBiOTg1ZjczZTc0YjRiYjkyODZjOWIzYzk4NzNjODMwN2UyOQ==",
+              "tracks": {
+                  "href": "https://api.spotify.com/v1/playlists/2hUkNyMujgV82Go8gTNVqu/tracks",
+                  "total": 5
+              },
+              "type": "playlist",
+              "uri": "spotify:playlist:2hUkNyMujgV82Go8gTNVqu"
+          }
+      ],
+      "limit": 20,
+      "next": "https://api.spotify.com/v1/search?query=name%3Ajustin&type=playlist&market=ID&offset=20&limit=20",
+      "offset": 0,
+      "previous": null,
+      "total": 41
+  }
+}
